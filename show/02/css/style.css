@@ -1,0 +1,49 @@
+#load{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+#load>div{
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+#load img{
+    width: 50px;
+    margin: 0 auto;
+}
+#load p{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    margin: 15px auto;
+    height: 16px;
+    line-height: 16px;
+}
+
+#progress{
+    width: 80px;
+    height: 3px;
+    position: relative;
+    margin: 10px auto 0;
+    background-color: #e4e0e0;
+}
+#bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #10110f;
+    width: 0%;
+    height: 100%;
+}
+canvas {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}

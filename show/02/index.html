@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="full-screen" content="yes" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <meta name="screen-orientation" content="" />
+    <meta name="x5-orientation" content="">
+    <meta name="x5-page-mode" content="app">
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <title>此间的江湖</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="load">
+      <div>
+        <img src="./assets/images/load.png" alt="">
+        <div id="progress"><span id="bar"></span></div>
+        <p id="load-msg">正在修炼...</p>
+      </div>
+    </div>
+    <audio id="audio" src="./assets/audio/bgm.mp3" autoplay="true" loop="true"></audio>
+    <audio id="talk_audio"></audio>
+    <script src="./src/jquery-3.1.1.min.js"></script>
+    <script src="./src/pixi.min.js"></script>
+    <script src="./src/gsap.min.js"></script>
+    <script src="./src/phytouch.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
