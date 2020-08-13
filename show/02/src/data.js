@@ -73,6 +73,48 @@ var MYDATA = window.MYDATA = [{
 },{
 	name:"e9",
 	url:"./assets/images/sence1/e9.png"
+},{
+	name:"f0",
+	url:"./assets/images/sence2/f0.png"
+},{
+	name:"f1",
+	url:"./assets/images/sence2/f1.png"
+},{
+	name:"f2",
+	url:"./assets/images/sence2/f2.png"
+},{
+	name:"f3",
+	url:"./assets/images/sence2/f3.png"
+},{
+	name:"f4",
+	url:"./assets/images/sence2/f4.png"
+},{
+	name:"f5",
+	url:"./assets/images/sence2/f5.png"
+},{
+	name:"f6",
+	url:"./assets/images/sence2/f6.png"
+},{
+	name:"f7",
+	url:"./assets/images/sence2/f7.png"
+},{
+	name:"f8",
+	url:"./assets/images/sence2/f8.png"
+},{
+	name:"f9",
+	url:"./assets/images/sence2/f9.png"
+},{
+	name:"f10",
+	url:"./assets/images/sence2/f10.png"
+},{
+	name:"f11",
+	url:"./assets/images/sence2/f11.png"
+},{
+	name:"f12",
+	url:"./assets/images/sence2/f12.jpg"
+},{
+	name:"f13",
+	url:"./assets/images/sence2/f13.png"
 }];
 
 
