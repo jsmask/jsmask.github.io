@@ -64,6 +64,15 @@ var MYDATA = window.MYDATA = [{
 },{
 	name:"e6",
 	url:"./assets/images/sence1/e6.png"
+},{
+	name:"e7",
+	url:"./assets/images/sence1/e7.png"
+},{
+	name:"e8",
+	url:"./assets/images/sence1/e8.png"
+},{
+	name:"e9",
+	url:"./assets/images/sence1/e9.png"
 }];
 
 
