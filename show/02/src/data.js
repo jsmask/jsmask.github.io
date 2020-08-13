@@ -1,0 +1,71 @@
+var MYDATA = window.MYDATA = [{
+	name:"stage0",
+	url:"./assets/data/stage0.json"
+},{
+	name:"word",
+	url:"./assets/data/word.json"
+},{
+	name:"logo",
+	url:"./assets/images/logo.png"
+},{
+	name:"d1",
+	url:"./assets/images/sence1/d1.png"
+},{
+	name:"d2",
+	url:"./assets/images/sence1/d2.png"
+},{
+	name:"d3",
+	url:"./assets/images/sence1/d3.png"
+},{
+	name:"d4",
+	url:"./assets/images/sence1/d4.png"
+},{
+	name:"d5",
+	url:"./assets/images/sence1/d5.png"
+},{
+	name:"d6",
+	url:"./assets/images/sence1/d6.png"
+},{
+	name:"d7",
+	url:"./assets/images/sence1/d7.png"
+},{
+	name:"d8",
+	url:"./assets/images/sence1/d8.png"
+},{
+	name:"d9",
+	url:"./assets/images/sence1/d9.png"
+},{
+	name:"d10",
+	url:"./assets/images/sence1/d10.png"
+},{
+	name:"d11",
+	url:"./assets/images/sence1/d11.png"
+},{
+	name:"d12",
+	url:"./assets/images/sence1/d12.png"
+},{
+	name:"e0",
+	url:"./assets/images/sence1/e0.png"
+},{
+	name:"e1",
+	url:"./assets/images/sence1/e1.png"
+},{
+	name:"e2",
+	url:"./assets/images/sence1/e2.png"
+},{
+	name:"e3",
+	url:"./assets/images/sence1/e3.png"
+},{
+	name:"e4",
+	url:"./assets/images/sence1/e4.png"
+},{
+	name:"e5",
+	url:"./assets/images/sence1/e5.png"
+},{
+	name:"e6",
+	url:"./assets/images/sence1/e6.png"
+}];
+
+
+
+
