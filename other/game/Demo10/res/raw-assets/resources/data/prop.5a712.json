@@ -1,0 +1,225 @@
+{
+    "data": [{
+            "img": "mucai.png",
+            "name": "木材",
+            "price": 100,
+            "describe": "乔木和灌木所形成的木质化组织，是一种制造原料。",
+            "type": 0,
+            "nosale": false
+        },
+        {
+            "img": "tiekuangshi.png",
+            "name": "铁矿石",
+            "price": 100,
+            "describe": "含有铁的矿石，是一种制造原料。",
+            "type": 0,
+            "nosale": false
+        },
+        {
+            "img": "chantui.png",
+            "name": "蝉蜕",
+            "price": 160,
+            "describe": "为蝉羽化后的蜕壳。具有疏散风热，利咽开音，透疹，明目退翳，息风止痉之功效。",
+            "type": 0,
+            "nosale": false
+        },
+        {
+            "img": "honghua.png",
+            "name": "红花",
+            "price": 500,
+            "describe": "具有活血通经，散瘀止痛之功效。",
+            "type": 0,
+            "nosale": false
+        },
+        {
+            "img": "shedan.png",
+            "name": "蛇胆",
+            "price": 800,
+            "describe": "清热解毒，化痰镇痉之功效。",
+            "type": 0,
+            "nosale": false
+        },
+        {
+            "img": "shepi.png",
+            "name": "蛇皮",
+            "price": 1500,
+            "describe": "蛇蜕下的蚹，一味很重要的中药。",
+            "type": 0,
+            "nosale": false
+        },
+        {
+            "img": "hupi.png",
+            "name": "虎皮",
+            "price": 1500,
+            "describe": "森林之王的毛皮。",
+            "type": 0,
+            "nosale": false
+        },
+        {
+            "img": "xiongpi.png",
+            "name": "熊皮",
+            "price": 2000,
+            "describe": "野熊的毛皮，十分柔软。",
+            "type": 0,
+            "nosale": false
+        },
+        {
+            "img": "lingzhi.png",
+            "name": "野灵芝",
+            "price": 9000,
+            "describe": "一味中药，具有补气安神、止咳平喘、延年益寿之功效。",
+            "MAXMP": 2,
+            "type": 1,
+            "nosale": false
+        },
+        {
+            "img": "renshen.png",
+            "name": "野山参",
+            "price": 9000,
+            "describe": "一味中药，乃百草之王，补气，固脱，生津，安神，益智之功效。",
+            "MAXHP": 5,
+            "type": 1,
+            "nosale": false
+        },
+        {
+            "img": "jiu.png",
+            "name": "酒",
+            "price": 500,
+            "describe": "宴请宾客的饮品。",
+            "diplomacy": 1,
+            "type": 2,
+            "nosale": false
+        },
+        {
+            "img": "sichou.png",
+            "name": "丝绸",
+            "price": 1500,
+            "describe": "纺织品,贸易交流品。",
+            "diplomacy": 3,
+            "type": 2,
+            "nosale": false
+        },
+        {
+            "img": "yubi.png",
+            "name": "玉璧",
+            "price": 8000,
+            "describe": "价值连城的宝物。",
+            "diplomacy": 20,
+            "type": 2,
+            "nosale": false
+        },
+        {
+            "img": "tangsancailuotuo.png",
+            "name": "唐三彩骆驼",
+            "price": 12000,
+            "describe": "价值连城的宝物。",
+            "diplomacy": 30,
+            "type": 2,
+            "nosale": false
+        },
+        {
+            "img": "zhixuesan.png",
+            "name": "止血散",
+            "price": 480,
+            "describe": "可止血消炎，是江湖常见的药品。",
+            "HP": 50,
+            "type": 3,
+            "nosale": false
+        },
+        {
+            "img": "xingqisan.png",
+            "name": "行气散",
+            "price": 960,
+            "describe": "有助于恢复损耗的部分真气，是江湖常见的药品。",
+            "MP": 50,
+            "type": 3,
+            "nosale": false
+        },
+        {
+            "img": "dao00.jpg",
+            "name": "钢刀",
+            "price": 800,
+            "describe": "这是由精钢打造的一把刀类武器。",
+            "power": 10,
+            "type": 4,
+            "nosale": false
+        },
+        {
+            "img": "ruanbian.png",
+            "name": "软鞭",
+            "price": 980,
+            "describe": "由镖头、握把、若干铁节或数节棒棍以环相连制成的一类兵械。可击、可笞、可缚、可勾，善用者能胜刀剑。",
+            "power": 12,
+            "type": 4,
+            "nosale": false
+        },
+        {
+            "img": "cubuyifu.png",
+            "name": "粗布衣",
+            "price": 180,
+            "describe": "十分常见的服饰。",
+            "offset": 1,
+            "type": 6,
+            "nosale": false
+        },
+        {
+            "img": "tengjia.png",
+            "name": "藤甲",
+            "price": 2860,
+            "describe": "一种经过特殊处理藤编而成的铠甲，有很强的防护力。",
+            "offset": 20,
+            "type": 6,
+            "nosale": false
+        },
+        {
+            "img": "pijia.png",
+            "name": "皮甲",
+            "price": 660,
+            "describe": "轻便且价廉的防具。",
+            "offset": 3,
+            "type": 6,
+            "nosale": false
+        },
+        {
+            "img": "juyuangong.png",
+            "name": "聚元功谱",
+            "price": 5000,
+            "describe": "记录了聚元功修炼法门。",
+            "skill": "聚元功",
+            "MAXMP": "15",
+            "type": 5,
+            "nosale": false
+        },
+        {
+            "img": "qiliaoshu.png",
+            "name": "气疗术",
+            "price": 1800,
+            "describe": "记录了气疗术修炼法门。",
+            "skill": "气疗术",
+            "MAXHP": "5",
+            "type": 5,
+            "nosale": false
+        },
+        {
+            "img": "miji0.png",
+            "name": "吐纳秘典",
+            "price": 2400,
+            "describe": "记录了吐纳心法修炼法门。",
+            "skill": "吐纳心法",
+            "MAXHP": "12",
+            "MAXMP": "18",
+            "type": 5,
+            "nosale": false
+        }, {
+            "img": "xinyuanyima.png",
+            "name": "心猿意马",
+            "price": 1,
+            "describe": "一只有灵性的乌龟。",
+            "special": "或许在一些事上能带来好运",
+            "MAXHP": 25,
+            "LER": 2,
+            "type": 7,
+            "nosale": true
+        }
+    ]
+}

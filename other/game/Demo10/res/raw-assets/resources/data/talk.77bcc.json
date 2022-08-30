@@ -1,0 +1,232 @@
+{
+    "data": [{
+            "scenes": "1",
+            "bg_pic": "resources/img/bg/sbg0.jpg",
+            "list": [{
+                    "type": "0",
+                    "role_name": "年轻人",
+                    "role_pic": "resources/img/role/face_00.png",
+                    "content": "哎，这里是哪里？我怎么来到这里了？",
+                    "status": 0
+                }, {
+                    "type": "0",
+                    "role_name": "年轻人",
+                    "role_pic": "resources/img/role/face_00.png",
+                    "content": "(前面好像有个老者走过来)",
+                    "status": 0
+                }, {
+                    "type": "0",
+                    "role_name": "老者",
+                    "role_pic": "resources/img/role/zbt.png",
+                    "content": "哈哈哈，小伙子怎么迷路了？"
+                }, {
+                    "type": "0",
+                    "role_name": "年轻人",
+                    "role_pic": "resources/img/role/face_00.png",
+                    "content": "。。。。。。",
+                    "status": 0
+                }, {
+                    "type": "0",
+                    "role_name": "年轻人",
+                    "role_pic": "resources/img/role/face_00.png",
+                    "content": "老先生，晚辈不知这里何境地，仿佛仙境一般。",
+                    "status": 0
+                }, {
+                    "type": "0",
+                    "role_name": "老者",
+                    "role_pic": "resources/img/role/zbt.png",
+                    "content": "此处乃<color=#FFD700>不周山</color>，天地交汇之处。"
+                }, {
+                    "type": "0",
+                    "role_name": "年轻人",
+                    "role_pic": "resources/img/role/face_00.png",
+                    "content": "啊，老先生，那如何下去，晚辈还有很重要的事去办。",
+                    "status": 0
+                }, {
+                    "type": "0",
+                    "role_name": "老者",
+                    "role_pic": "resources/img/role/zbt.png",
+                    "content": "这样吧，老夫问你几个问题，你要如实回答。"
+                }, {
+                    "type": "0",
+                    "role_name": "老者",
+                    "role_pic": "resources/img/role/zbt.png",
+                    "content": "如果坦诚，老夫便想办法让你回去。"
+                },
+                {
+                    "type": "0",
+                    "role_name": "凌云",
+                    "role_pic": "resources/img/role/face_00.png",
+                    "content": "好的，前辈。",
+                    "status": 0
+                }, {
+                    "type": "3",
+                    "role_name": "老者",
+                    "role_pic": "resources/img/role/zbt.png",
+                    "content": "你是叫什么啊？",
+                    "relation": "name"
+                }, {
+                    "type": "4",
+                    "role_name": "凌云",
+                    "role_pic": "resources/img/role/face_00.png",
+                    "content": ["晚辈名叫<color=#FFD700>", "</color>，说来惭愧，在江湖上是个岌岌无名的小辈。"],
+                    "relation": "name",
+                    "status": 0
+                }, {
+                    "type": "3",
+                    "role_name": "老者",
+                    "role_pic": "resources/img/role/zbt.png",
+                    "content": "哈哈，那你又是何门何派？",
+                    "relation": "school"
+                }, {
+                    "type": "4",
+                    "role_name": "凌云",
+                    "role_pic": "resources/img/role/face_00.png",
+                    "content": ["晚辈拜于<color=#FFD700>", "</color>，恩师乃是<color=#FFD700>北丑</color>。"],
+                    "relation": "school",
+                    "status": 0
+                }, {
+                    "type": "1",
+                    "role_name": "老者",
+                    "role_pic": "resources/img/role/zbt.png",
+                    "content": "你是何出身？",
+                    "option": ["武林世家", "山间猎户", "书香门第", "市井布衣"]
+                }, {
+                    "type": "2",
+                    "role_name": "凌云",
+                    "role_pic": "resources/img/role/face_00.png",
+                    "content": ["晚辈长于", ",从小", "。"],
+                    "option": ["通晓武学要领", "常与鸟兽为伴", "通读四书五经", "结交市井好汉"],
+                    "status": 0
+                }, {
+                    "type": "1",
+                    "role_name": "老者",
+                    "role_pic": "resources/img/role/zbt.png",
+                    "content": "嗯，你最擅长哪类武学？",
+                    "option": ["拳掌", "御剑", "耍刀", "枪棒"]
+                }, {
+                    "type": "2",
+                    "role_name": "凌云",
+                    "role_pic": "resources/img/role/face_00.png",
+                    "content": ["晚辈擅长于", ",自幼习得一门名叫<color=#FFD700>", "</color>的功夫。"],
+                    "option": ["太祖长拳", "御剑术", "柴刀十八路", "太祖棍法"],
+                    "status": 0
+                }, {
+                    "type": "1",
+                    "role_name": "老者",
+                    "role_pic": "resources/img/role/zbt.png",
+                    "content": "不错，那么你认为何种能力尤为重要？",
+                    "option": ["排山倒海", "铜墙铁壁", "飞檐走壁", "稳如泰山"]
+                }, {
+                    "type": "2",
+                    "role_name": "凌云",
+                    "role_pic": "resources/img/role/face_00.png",
+                    "content": ["晚辈以为", "的", "才是武学首要。"],
+                    "option": ["气劲", "硬功", "轻功", "内功"],
+                    "status": 0
+                }, {
+                    "type": "1",
+                    "role_name": "老者",
+                    "role_pic": "resources/img/role/zbt.png",
+                    "content": "如果遇见盗匪劫掠百姓，你会如何？",
+                    "option": ["挺身而出", "设计驱离", "趁机溜走", "结交盗匪"]
+                }, {
+                    "type": "2",
+                    "role_name": "凌云",
+                    "role_pic": "resources/img/role/face_00.png",
+                    "content": ["我可能更愿意", "，", "。"],
+                    "option": ["小小毛贼不足为惧，我一人足矣", "万事须小心，以智取胜不失为一个好方式", "留得青山在不怕没柴烧，说不定有别的侠士经过呢", "绿林好汉多为武功高强之士，结识必大有好处"],
+                    "status": 0
+                }, {
+                    "type": "1",
+                    "role_name": "老者",
+                    "role_pic": "resources/img/role/zbt.png",
+                    "content": "那么，你觉得发展门派靠什么最重要？",
+                    "option": ["资金", "秘籍", "伙伴", "名望"]
+                }, {
+                    "type": "2",
+                    "role_name": "凌云",
+                    "role_pic": "resources/img/role/face_00.png",
+                    "content": ["晚辈以为拥有更多", "才是发展门派的第一要义，", "。"],
+                    "option": ["所谓有钱能使鬼推磨，就是这个道理", "不断学习才是关键之道，所谓技多不压身嘛", "所谓三个臭皮匠顶个诸葛亮，人多好办事嘛", "只有名气响当当，各方侠士才会赏脸"],
+                    "status": 0
+                }, {
+                    "type": "0",
+                    "role_name": "老者",
+                    "role_pic": "resources/img/role/zbt.png",
+                    "content": "嗯，说的不无道理。"
+                }, {
+                    "type": "0",
+                    "role_name": "老者",
+                    "role_pic": "resources/img/role/zbt.png",
+                    "content": "算了，不难为你了，送你回去吧。"
+                }
+            ]
+        },
+        {
+            "scenes": "2",
+            "bg_pic": "resources/img/bg/room.jpg",
+            "list": [{
+                "type": "0",
+                "role_name": "凌云",
+                "role_pic": "resources/img/role/face_00.png",
+                "content": "唔，原来是个梦啊。",
+                "status": 0
+            }, {
+                "type": "0",
+                "role_name": "伽耶",
+                "role_pic": "resources/img/role/face_01.png",
+                "content": "你终于醒了啊，都什么时辰了，还在睡。"
+            }, {
+                "type": "0",
+                "role_name": "伽耶",
+                "role_pic": "resources/img/role/face_01.png",
+                "content": "你能不能把门派的事放在心上，师傅把咱们门派托付给你可不是让你寻开心的。"
+            }, {
+                "type": "0",
+                "role_name": "凌云",
+                "role_pic": "resources/img/role/face_00.png",
+                "content": "抱歉，抱歉，这就去，嘿嘿。",
+                "status": 0
+            }]
+        },
+        {
+            "scenes": "3",
+            "bg_pic": "resources/img/bg/map0.jpg",
+            "list": [{
+                "type": "1",
+                "role_name": "伽耶",
+                "role_pic": "resources/img/role/face_01.png",
+                "content": "需要我来介绍一下目前的状况吗？",
+                "option": ["需要", "不需要"]
+            }, {
+                "type": "0",
+                "role_name": "凌云",
+                "role_pic": "resources/img/role/face_00.png",
+                "content": "好，多谢了。",
+                "status": 0
+            }, {
+                "type": "0",
+                "role_name": "伽耶",
+                "role_pic": "resources/img/role/face_01.png",
+                "content": "咱们的目的是把本门发扬光大，每回合可以给人物安排任务。 "
+            }, {
+                "type": "0",
+                "role_name": "伽耶",
+                "role_pic": "resources/img/role/face_01.png",
+                "content": "<color=#FFD700>建造</color>建筑,相应的建筑会开放一些功能。"
+            }, {
+                "type": "0",
+                "role_name": "伽耶",
+                "role_pic": "resources/img/role/face_01.png",
+                "content": "另外，踢馆，打造，建造等等都需要<color=#FFD700>钱</color>,每个回合会根据<color=#FFD700>市场</color>收入获得一部分收入，有时候<color=#FFD700>探索</color>也会发现金钱，反正方法很多啦。"
+            }, {
+                "type": "0",
+                "role_name": "伽耶",
+                "role_pic": "resources/img/role/face_01.png",
+                "content": "最后嘛，附近的<color=#FFD700>酒馆</color>有时会有出现一些武林中人，说不定有愿意<color=#FFD700>加入</color>的，还有一些人可能也会自己上山拜师。"
+            }]
+        }
+
+    ]
+}

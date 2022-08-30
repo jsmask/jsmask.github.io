@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BeginStage" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15bd1808fc2" top="0" bottom="0" left="0" right="0" scale9Grid="0,0,481,802"/>
+	<e:Rect width="640" height="960" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xfffcfc"/>
+	<e:Image source="logo_png" y="139" horizontalCenter="0"/>
+	<e:Button id="startBtn" label="" x="126" y="639">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="start_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

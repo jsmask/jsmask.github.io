@@ -1,0 +1,320 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,2000_png,a_png,an_0_png,an_1_png,an_2_png,an_3_png,an_4_png,an_5_png,an_6_png,an_7_png,anniu_1_png,b_1_png,b_2_png,b_3_png,b_4_png,b_5_png,b_6_png,b_7_png,b_8_png,clue_png,clue1_png,cw_png,cw_1_png,d_1_png,d_2_png,dg_png,di_png,di_1_png,di_2_png,die_png,f_1_png,f_2_png,fh_3_png,jx_png,k_1_png,k_2_png,l_png,n_1_png,n_2_png,p_1_png,p_2_png,pp_png,q_1_png,q_2_png,y_1_png,ym_png,za_1_png,za_2_png,zi_1_png,zi_2_png,zt_png,start0_png,start1_png,btn_wav,bgm_mp3,skill00_mc_json,skill00_tex_png,go_tex_png,go_mc_json,bird_mc_json,bird_tex_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/2000.png",
+			"type": "image",
+			"name": "2000_png"
+		},
+		{
+			"url": "assets/a.png",
+			"type": "image",
+			"name": "a_png"
+		},
+		{
+			"url": "assets/an_0.png",
+			"type": "image",
+			"name": "an_0_png"
+		},
+		{
+			"url": "assets/an_1.png",
+			"type": "image",
+			"name": "an_1_png"
+		},
+		{
+			"url": "assets/an_2.png",
+			"type": "image",
+			"name": "an_2_png"
+		},
+		{
+			"url": "assets/an_3.png",
+			"type": "image",
+			"name": "an_3_png"
+		},
+		{
+			"url": "assets/an_4.png",
+			"type": "image",
+			"name": "an_4_png"
+		},
+		{
+			"url": "assets/an_5.png",
+			"type": "image",
+			"name": "an_5_png"
+		},
+		{
+			"url": "assets/an_6.png",
+			"type": "image",
+			"name": "an_6_png"
+		},
+		{
+			"url": "assets/an_7.png",
+			"type": "image",
+			"name": "an_7_png"
+		},
+		{
+			"url": "assets/anniu_1.png",
+			"type": "image",
+			"name": "anniu_1_png"
+		},
+		{
+			"url": "assets/b_1.png",
+			"type": "image",
+			"name": "b_1_png"
+		},
+		{
+			"url": "assets/b_2.png",
+			"type": "image",
+			"name": "b_2_png"
+		},
+		{
+			"url": "assets/b_3.png",
+			"type": "image",
+			"name": "b_3_png"
+		},
+		{
+			"url": "assets/b_4.png",
+			"type": "image",
+			"name": "b_4_png"
+		},
+		{
+			"url": "assets/b_5.png",
+			"type": "image",
+			"name": "b_5_png"
+		},
+		{
+			"url": "assets/b_6.png",
+			"type": "image",
+			"name": "b_6_png"
+		},
+		{
+			"url": "assets/b_7.png",
+			"type": "image",
+			"name": "b_7_png"
+		},
+		{
+			"url": "assets/b_8.png",
+			"type": "image",
+			"name": "b_8_png"
+		},
+		{
+			"url": "assets/clue.png",
+			"type": "image",
+			"name": "clue_png"
+		},
+		{
+			"url": "assets/clue1.png",
+			"type": "image",
+			"name": "clue1_png"
+		},
+		{
+			"url": "assets/cw.png",
+			"type": "image",
+			"name": "cw_png"
+		},
+		{
+			"url": "assets/cw_1.png",
+			"type": "image",
+			"name": "cw_1_png"
+		},
+		{
+			"url": "assets/d_1.png",
+			"type": "image",
+			"name": "d_1_png"
+		},
+		{
+			"url": "assets/d_2.png",
+			"type": "image",
+			"name": "d_2_png"
+		},
+		{
+			"url": "assets/dg.png",
+			"type": "image",
+			"name": "dg_png"
+		},
+		{
+			"url": "assets/di.png",
+			"type": "image",
+			"name": "di_png"
+		},
+		{
+			"url": "assets/di_1.png",
+			"type": "image",
+			"name": "di_1_png"
+		},
+		{
+			"url": "assets/di_2.png",
+			"type": "image",
+			"name": "di_2_png"
+		},
+		{
+			"url": "assets/die.png",
+			"type": "image",
+			"name": "die_png"
+		},
+		{
+			"url": "assets/f_1.png",
+			"type": "image",
+			"name": "f_1_png"
+		},
+		{
+			"url": "assets/f_2.png",
+			"type": "image",
+			"name": "f_2_png"
+		},
+		{
+			"url": "assets/fh_3.png",
+			"type": "image",
+			"name": "fh_3_png"
+		},
+		{
+			"url": "assets/jx.png",
+			"type": "image",
+			"name": "jx_png"
+		},
+		{
+			"url": "assets/k_1.png",
+			"type": "image",
+			"name": "k_1_png"
+		},
+		{
+			"url": "assets/k_2.png",
+			"type": "image",
+			"name": "k_2_png"
+		},
+		{
+			"url": "assets/l.png",
+			"type": "image",
+			"name": "l_png"
+		},
+		{
+			"url": "assets/n_1.png",
+			"type": "image",
+			"name": "n_1_png"
+		},
+		{
+			"url": "assets/n_2.png",
+			"type": "image",
+			"name": "n_2_png"
+		},
+		{
+			"url": "assets/p_1.png",
+			"type": "image",
+			"name": "p_1_png"
+		},
+		{
+			"url": "assets/p_2.png",
+			"type": "image",
+			"name": "p_2_png"
+		},
+		{
+			"url": "assets/pp.png",
+			"type": "image",
+			"name": "pp_png"
+		},
+		{
+			"url": "assets/q_1.png",
+			"type": "image",
+			"name": "q_1_png"
+		},
+		{
+			"url": "assets/q_2.png",
+			"type": "image",
+			"name": "q_2_png"
+		},
+		{
+			"url": "assets/y_1.png",
+			"type": "image",
+			"name": "y_1_png"
+		},
+		{
+			"url": "assets/ym.png",
+			"type": "image",
+			"name": "ym_png"
+		},
+		{
+			"url": "assets/za_1.png",
+			"type": "image",
+			"name": "za_1_png"
+		},
+		{
+			"url": "assets/za_2.png",
+			"type": "image",
+			"name": "za_2_png"
+		},
+		{
+			"url": "assets/zi_1.png",
+			"type": "image",
+			"name": "zi_1_png"
+		},
+		{
+			"url": "assets/zi_2.png",
+			"type": "image",
+			"name": "zi_2_png"
+		},
+		{
+			"url": "assets/zt.png",
+			"type": "image",
+			"name": "zt_png"
+		},
+		{
+			"url": "assets/start0.png",
+			"type": "image",
+			"name": "start0_png"
+		},
+		{
+			"url": "assets/start1.png",
+			"type": "image",
+			"name": "start1_png"
+		},
+		{
+			"url": "sound/btn.wav",
+			"type": "sound",
+			"name": "btn_wav"
+		},
+		{
+			"url": "sound/bgm.mp3",
+			"type": "sound",
+			"name": "bgm_mp3"
+		},
+		{
+			"name": "skill00_mc_json",
+			"type": "json",
+			"url": "assets/mc/skill00_mc.json"
+		},
+		{
+			"name": "skill00_tex_png",
+			"type": "image",
+			"url": "assets/mc/skill00_tex.png"
+		},
+		{
+			"name": "go_tex_png",
+			"type": "image",
+			"url": "assets/mc/go_tex.png"
+		},
+		{
+			"name": "go_mc_json",
+			"type": "json",
+			"url": "assets/mc/go_mc.json"
+		},
+		{
+			"name": "bird_mc_json",
+			"type": "json",
+			"url": "assets/mc/bird_mc.json"
+		},
+		{
+			"name": "bird_tex_png",
+			"type": "image",
+			"url": "assets/mc/bird_tex.png"
+		}
+	]
+}

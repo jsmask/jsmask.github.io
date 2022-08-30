@@ -1,0 +1,95 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,apple_png,apples_png,arrow_png,bow_png,boyaa_png,fail_1_png,fail_2_png,fail_3_png,life_png,logo_png,more_png,people_png,retry_png,share_png,start_png,win_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "apple_png",
+			"type": "image",
+			"url": "assets/apple.png"
+		},
+		{
+			"name": "apples_png",
+			"type": "image",
+			"url": "assets/apples.png"
+		},
+		{
+			"name": "arrow_png",
+			"type": "image",
+			"url": "assets/arrow.png"
+		},
+		{
+			"name": "bow_png",
+			"type": "image",
+			"url": "assets/bow.png"
+		},
+		{
+			"name": "boyaa_png",
+			"type": "image",
+			"url": "assets/boyaa.png"
+		},
+		{
+			"name": "fail_1_png",
+			"type": "image",
+			"url": "assets/fail_1.png"
+		},
+		{
+			"name": "fail_2_png",
+			"type": "image",
+			"url": "assets/fail_2.png"
+		},
+		{
+			"name": "fail_3_png",
+			"type": "image",
+			"url": "assets/fail_3.png"
+		},
+		{
+			"name": "life_png",
+			"type": "image",
+			"url": "assets/life.png"
+		},
+		{
+			"name": "logo_png",
+			"type": "image",
+			"url": "assets/logo.png"
+		},
+		{
+			"name": "more_png",
+			"type": "image",
+			"url": "assets/more.png"
+		},
+		{
+			"name": "people_png",
+			"type": "image",
+			"url": "assets/people.png"
+		},
+		{
+			"name": "retry_png",
+			"type": "image",
+			"url": "assets/retry.png"
+		},
+		{
+			"name": "share_png",
+			"type": "image",
+			"url": "assets/share.png"
+		},
+		{
+			"name": "start_png",
+			"type": "image",
+			"url": "assets/start.png"
+		},
+		{
+			"name": "win_png",
+			"type": "image",
+			"url": "assets/win.png"
+		}
+	]
+}

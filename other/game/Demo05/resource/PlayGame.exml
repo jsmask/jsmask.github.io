@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayGame" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_jpg" y="0" left="0"/>
+	<e:Image id="food" source="green_png" y="359" horizontalCenter="0" anchorOffsetX="150" anchorOffsetY="150"/>
+	<e:Image id="simg" source="green_png" x="13" y="10" anchorOffsetX="0" width="80" anchorOffsetY="0" height="80" alpha="0.75"/>
+	<e:Label id="GameScore" text="得分" y="759" textColor="0x000000" horizontalCenter="0" textAlign="center" verticalAlign="middle" minWidth="150"/>
+	<e:Label id="GameTime" text="时间" x="490" y="35" textColor="0x070707" verticalAlign="middle" textAlign="center" minWidth="150"/>
+</e:Skin>

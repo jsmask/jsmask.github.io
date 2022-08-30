@@ -1,0 +1,220 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,m01_png,m02_png,m03_png,m04_png,m05_png,m06_png,m07_png,m08_png,m09_png,m10_png,m11_png,m12_png,m13_png,m14_png,m15_png,m16_png,m17_png,m18_png,stage2_png,bg_png,bgm_mp3,stage1_png,ditem01_jpg,m19_png,m20_png,m21_png,m22_png,m23_png,bgm0_mp3,ui01_png,head_png,ui00_png,ui02_png,ui03_png,ui04_png,ui05_png,ui06_png,qplay01_png,qplay00_png,qplay_mp3,qplay02_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "m01_png",
+			"type": "image",
+			"url": "assets/m01.png"
+		},
+		{
+			"name": "m02_png",
+			"type": "image",
+			"url": "assets/m02.png"
+		},
+		{
+			"name": "m03_png",
+			"type": "image",
+			"url": "assets/m03.png"
+		},
+		{
+			"name": "m04_png",
+			"type": "image",
+			"url": "assets/m04.png"
+		},
+		{
+			"name": "m05_png",
+			"type": "image",
+			"url": "assets/m05.png"
+		},
+		{
+			"name": "m06_png",
+			"type": "image",
+			"url": "assets/m06.png"
+		},
+		{
+			"name": "m07_png",
+			"type": "image",
+			"url": "assets/m07.png"
+		},
+		{
+			"name": "m08_png",
+			"type": "image",
+			"url": "assets/m08.png"
+		},
+		{
+			"name": "m09_png",
+			"type": "image",
+			"url": "assets/m09.png"
+		},
+		{
+			"name": "m10_png",
+			"type": "image",
+			"url": "assets/m10.png"
+		},
+		{
+			"name": "m11_png",
+			"type": "image",
+			"url": "assets/m11.png"
+		},
+		{
+			"name": "m12_png",
+			"type": "image",
+			"url": "assets/m12.png"
+		},
+		{
+			"name": "m13_png",
+			"type": "image",
+			"url": "assets/m13.png"
+		},
+		{
+			"name": "m14_png",
+			"type": "image",
+			"url": "assets/m14.png"
+		},
+		{
+			"name": "m15_png",
+			"type": "image",
+			"url": "assets/m15.png"
+		},
+		{
+			"name": "m16_png",
+			"type": "image",
+			"url": "assets/m16.png"
+		},
+		{
+			"name": "m17_png",
+			"type": "image",
+			"url": "assets/m17.png"
+		},
+		{
+			"name": "m18_png",
+			"type": "image",
+			"url": "assets/m18.png"
+		},
+		{
+			"name": "stage2_png",
+			"type": "image",
+			"url": "assets/stage2.png"
+		},
+		{
+			"name": "bg_png",
+			"type": "image",
+			"url": "assets/bg.png"
+		},
+		{
+			"name": "bgm_mp3",
+			"type": "sound",
+			"url": "assets/bgm.mp3"
+		},
+		{
+			"name": "stage1_png",
+			"type": "image",
+			"url": "assets/stage1.png"
+		},
+		{
+			"name": "ditem01_jpg",
+			"type": "image",
+			"url": "assets/ditem01.jpg"
+		},
+		{
+			"name": "m19_png",
+			"type": "image",
+			"url": "assets/m19.png"
+		},
+		{
+			"name": "m20_png",
+			"type": "image",
+			"url": "assets/m20.png"
+		},
+		{
+			"name": "m21_png",
+			"type": "image",
+			"url": "assets/m21.png"
+		},
+		{
+			"name": "m22_png",
+			"type": "image",
+			"url": "assets/m22.png"
+		},
+		{
+			"name": "m23_png",
+			"type": "image",
+			"url": "assets/m23.png"
+		},
+		{
+			"name": "bgm0_mp3",
+			"type": "sound",
+			"url": "assets/bgm0.mp3"
+		},
+		{
+			"name": "ui01_png",
+			"type": "image",
+			"url": "assets/ui01.png"
+		},
+		{
+			"name": "head_png",
+			"type": "image",
+			"url": "assets/head.png"
+		},
+		{
+			"name": "ui00_png",
+			"type": "image",
+			"url": "assets/ui00.png"
+		},
+		{
+			"name": "ui02_png",
+			"type": "image",
+			"url": "assets/ui02.png"
+		},
+		{
+			"name": "ui03_png",
+			"type": "image",
+			"url": "assets/ui03.png"
+		},
+		{
+			"name": "ui04_png",
+			"type": "image",
+			"url": "assets/ui04.png"
+		},
+		{
+			"name": "ui05_png",
+			"type": "image",
+			"url": "assets/ui05.png"
+		},
+		{
+			"name": "ui06_png",
+			"type": "image",
+			"url": "assets/ui06.png"
+		},
+		{
+			"name": "qplay01_png",
+			"type": "image",
+			"url": "assets/qplay01.png"
+		},
+		{
+			"name": "qplay00_png",
+			"type": "image",
+			"url": "assets/qplay00.png"
+		},
+		{
+			"name": "qplay_mp3",
+			"type": "sound",
+			"url": "assets/qplay.mp3"
+		},
+		{
+			"name": "qplay02_png",
+			"type": "image",
+			"url": "assets/qplay02.png"
+		}
+	]
+}

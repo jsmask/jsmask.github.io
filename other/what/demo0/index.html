@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>这是啥</title>
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="renderer" content="webkit" />
+		<meta name="force-rendering" content="webkit" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="msapplication-tap-highlight" content="no">
+		<meta name="full-screen" content="yes" />
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="360-fullscreen" content="true" />
+		<meta name="screen-orientation" content="portrait" />
+		<meta name="x5-orientation" content="portrait">
+		<meta name="x5-page-mode" content="app">
+
+		<style type="text/css">
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			
+			html,
+			body {
+				position: relative;
+				background: #333;
+				width: 100%;
+				height: 100%;
+			}
+			
+			.main {
+				width: 1024px;
+				height: 576px;
+				background: url(img/214_2.jpg) no-repeat;
+				background-size: 100% auto;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-left: -512px;
+				margin-top: -288px;
+				box-sizing: border-box;
+			}
+			
+			.title {
+				font-size: 36px;
+				margin-top: 170px;
+				margin-left: 120px;
+			}
+			
+			.as {
+				margin-top: 20px;
+				margin-left: 70px;
+			}
+			
+			.as>li {
+				background: rgb(115, 76, 243);
+				margin-bottom: 20px;
+				width: 600px;
+				margin-left: 45px;
+				list-style: none;
+				border: 2px solid blueviolet;
+			}
+			
+			.as>li>p {
+				color: #fff;
+				cursor: pointer;
+				font-size: 24px;
+				line-height: 48px;
+				padding: 0 20px;
+			}
+			
+			.as>li>dd {
+				display: none;
+				position: absolute;
+				top: -40px;
+				right: 0;
+				left: 0;
+				height: 40px;
+				line-height: 40px;
+				font-size: 24px;
+				color: #f31133;
+				text-align: center;
+				background: #fff;
+			}
+			
+			.r0 {
+				position: absolute;
+				left: 300px;
+				top: 100px;
+			}
+			
+			.r1 {
+				position: absolute;
+				left: 30px;
+				top: 30px;
+			}
+			
+			.r2 {
+				position: absolute;
+				left: 300px;
+				top: 400px;
+			}
+			.r3 {
+				position: absolute;
+				left: 300px;
+				top: 100px;
+			}
+			
+			.r4 {
+				position: absolute;
+				left: 30px;
+				top: 30px;
+			}
+			
+			.r5 {
+				position: absolute;
+				left: 150px;
+    			top: 400px;
+			}
+			
+			.end0{
+				width: 1024px;
+				height: 576px;
+				background: url(img/214_1.jpg) no-repeat;
+				background-size: 100% auto;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-left: -512px;
+				margin-top: -288px;
+				box-sizing: border-box;
+				z-index: 1;
+				display: none;
+			}
+			.end1{
+				width: 1024px;
+				height: 576px;
+				background: url(img/214_3.jpg) no-repeat;
+				background-size: 100% auto;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-left: -512px;
+				margin-top: -288px;
+				box-sizing: border-box;
+				z-index: 1;
+				display: none;
+			}
+			.none{
+				font-size: 24px;
+				display: flex;
+				display: -webkit-flex;
+				align-items: center;
+				-webkit-align-items: center;
+				justify-content: center;
+				-webkit-justify-content: center;
+				color: #fff;
+				background: #333;
+				z-index: 999;
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<div class="main">
+			<div class="title">
+				1.如果有一天我向你表白，你会怎么样？
+			</div>
+			<ul class="as">
+				<li>
+					<p>A.你小子终于开窍了，你敢表白我就敢答应！</p>
+				</li>
+				<li>
+					<dd></dd>
+					<p>B.我拿你当闺蜜，你居然想睡我！果断拒绝！</p>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="end0"></div>
+		<div class="end1"></div>
+		<div class="none">
+			<p>请用PC端浏览器打开</p>
+		</div>
+		
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" charset="utf-8">
+			$(function() {
+				var progress = 0;
+				$(".as").find("li").eq(0).on("click", function(e) {
+					$(".end0").show();
+				});
+				$(".as").find("li").eq(1).on("click",function(e){
+					if(progress>=5)
+						$(".end1").show();
+				});
+				$(".as").find("li").eq(1).on("mouseenter", function(e) {
+					var $t = $(this);
+					var arr = [
+					"操作提示：请点击答案切勿手抖",
+					'咋又抖了？女神是不是哪里不舒服',
+					'真不舒服嘛，多喝热水啊',
+					'不舒服没人照料，真心疼。。',
+					'好险差点就点到了呢',
+					'唉，算了，不躲了，你选吧~'
+					];
+					if(progress<arr.length){
+						$t.addClass("r" + progress);
+						$t.find("dd").html(arr[progress]).show();
+						if(progress==arr.length-1){
+							$t.find("p").html("B.我拿你当闺蜜，你居然想睡我！果断答应！");
+						}
+						progress++;
+					}
+				});
+				
+				
+				function IsPC() {
+				    var userAgentInfo = navigator.userAgent;
+				    var Agents = ["Android", "iPhone",
+				                "SymbianOS", "Windows Phone",
+				                "iPad", "iPod"];
+				    var flag = true;
+				    for (var v = 0; v < Agents.length; v++) {
+				        if (userAgentInfo.indexOf(Agents[v]) > 0) {
+				            flag = false;
+				            break;
+				        }
+				    }
+				    return flag;
+				}
+				if(IsPC()){
+					$(".none").hide();
+				}
+				
+			});
+		</script>
+	</body>
+
+</html>

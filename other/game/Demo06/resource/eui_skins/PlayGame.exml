@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayGame" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="640" height="960" x="0" y="0" fillColor="0xffffff" strokeWeight="0"/>
+	<e:Rect id="redrect" width="36" height="50" x="562" y="191" fillColor="0xf72a2a"/>
+	<e:Image source="people_png" x="219.88" y="130.77"/>
+	<e:Image id="apple" source="apple_png" x="241.24" y="100.87"/>
+	<e:Image id="bow" source="bow_png" x="133.78" y="812"/>
+	<e:Image id="arrow" source="arrow_png" x="279.64" y="747.1"/>
+	<e:Image source="life_png" x="555.91" y="204.34" visible="false"/>
+	<e:Rect id="changerect" width="36" height="1" x="598" y="654" fillColor="0xc9c9c9" anchorOffsetX="0" rotation="180" anchorOffsetY="0"/>
+	<e:Rect id="rect" width="40" height="540" x="560" y="115" anchorOffsetX="0" anchorOffsetY="0" strokeColor="0x2d2c2c" strokeWeight="2" fillColor="0xffffff" fillAlpha="0"/>
+	<e:Button id="reBtn" label="" x="149" y="795" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="retry_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

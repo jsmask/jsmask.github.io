@@ -1,0 +1,75 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,description_json,again_png,green_png,loading_jpg,red_png,result_png,share_png,share_btn_png,1_jpg,bgm_mp3,btn_wav,sorry_wav",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "again_png",
+			"type": "image",
+			"url": "assets/again.png"
+		},
+		{
+			"name": "green_png",
+			"type": "image",
+			"url": "assets/green.png"
+		},
+		{
+			"name": "loading_jpg",
+			"type": "image",
+			"url": "assets/loading.jpg"
+		},
+		{
+			"name": "red_png",
+			"type": "image",
+			"url": "assets/red.png"
+		},
+		{
+			"name": "result_png",
+			"type": "image",
+			"url": "assets/result.png"
+		},
+		{
+			"name": "share_png",
+			"type": "image",
+			"url": "assets/share.png"
+		},
+		{
+			"name": "share_btn_png",
+			"type": "image",
+			"url": "assets/share_btn.png"
+		},
+		{
+			"name": "1_jpg",
+			"type": "image",
+			"url": "assets/1.jpg"
+		},
+		{
+			"name": "bgm_mp3",
+			"type": "sound",
+			"url": "assets/bgm.mp3"
+		},
+		{
+			"name": "btn_wav",
+			"type": "sound",
+			"url": "assets/btn.wav"
+		},
+		{
+			"name": "sorry_wav",
+			"type": "sound",
+			"url": "assets/sorry.wav"
+		}
+	]
+}

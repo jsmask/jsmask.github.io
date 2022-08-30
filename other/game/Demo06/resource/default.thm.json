@@ -1,0 +1,30 @@
+{
+  "skins": {},
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    {
+      "path": "resource/eui_skins/BeginStage.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"BeginStage\" width=\"640\" height=\"960\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<w:Config id=\"15bd1808fc2\" top=\"0\" bottom=\"0\" left=\"0\" right=\"0\" scale9Grid=\"0,0,481,802\"/>\n\t<e:Rect width=\"640\" height=\"960\" x=\"0\" y=\"0\" anchorOffsetX=\"0\" anchorOffsetY=\"0\" fillColor=\"0xfffcfc\"/>\n\t<e:Image source=\"logo_png\" y=\"139\" horizontalCenter=\"0\"/>\n\t<e:Button id=\"startBtn\" label=\"\" x=\"126\" y=\"639\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"start_png\"/>\n\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui_skins/PlayGame.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"PlayGame\" width=\"640\" height=\"960\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Rect width=\"640\" height=\"960\" x=\"0\" y=\"0\" fillColor=\"0xffffff\" strokeWeight=\"0\"/>\n\t<e:Rect id=\"redrect\" width=\"36\" height=\"50\" x=\"562\" y=\"191\" fillColor=\"0xf72a2a\"/>\n\t<e:Image source=\"people_png\" x=\"219.88\" y=\"130.77\"/>\n\t<e:Image id=\"apple\" source=\"apple_png\" x=\"241.24\" y=\"100.87\"/>\n\t<e:Image id=\"bow\" source=\"bow_png\" x=\"133.78\" y=\"812\"/>\n\t<e:Image id=\"arrow\" source=\"arrow_png\" x=\"279.64\" y=\"747.1\"/>\n\t<e:Image source=\"life_png\" x=\"555.91\" y=\"204.34\" visible=\"false\"/>\n\t<e:Rect id=\"changerect\" width=\"36\" height=\"1\" x=\"598\" y=\"654\" fillColor=\"0xc9c9c9\" anchorOffsetX=\"0\" rotation=\"180\" anchorOffsetY=\"0\"/>\n\t<e:Rect id=\"rect\" width=\"40\" height=\"540\" x=\"560\" y=\"115\" anchorOffsetX=\"0\" anchorOffsetY=\"0\" strokeColor=\"0x2d2c2c\" strokeWeight=\"2\" fillColor=\"0xffffff\" fillAlpha=\"0\"/>\n\t<e:Button id=\"reBtn\" label=\"\" x=\"149\" y=\"795\" visible=\"false\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"retry_png\"/>\n\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui_skins/lose1.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"lose1\" width=\"640\" height=\"960\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Rect width=\"640\" height=\"960\" x=\"0\" y=\"0\" fillColor=\"0xffffff\"/>\n\t<e:Image source=\"fail_1_png\" y=\"104.67\" horizontalCenter=\"0\"/>\n\t<e:Button id=\"reBtn\" label=\"\" y=\"718.24\" horizontalCenter=\"0\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"retry_png\"/>\n\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui_skins/lose2.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"lose1\" width=\"640\" height=\"960\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Rect width=\"640\" height=\"960\" x=\"0\" y=\"0\" fillColor=\"0xffffff\"/>\n\t<e:Image source=\"fail_2_png\" y=\"104.67\" horizontalCenter=\"0\"/>\n\t<e:Button id=\"reBtn\" label=\"\" y=\"718.24\" horizontalCenter=\"0\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"retry_png\"/>\n\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui_skins/lose3.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"lose1\" width=\"640\" height=\"960\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Rect width=\"640\" height=\"960\" x=\"0\" y=\"0\" fillColor=\"0xffffff\"/>\n\t<e:Image source=\"fail_3_png\" y=\"104.67\" horizontalCenter=\"0\"/>\n\t<e:Button id=\"reBtn\" label=\"\" y=\"718.24\" horizontalCenter=\"0\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"retry_png\"/>\n\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui_skins/win.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"win\" width=\"640\" height=\"960\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Rect width=\"640\" height=\"960\" x=\"0\" y=\"0\" fillColor=\"0xffffff\"/>\n\t<e:Image source=\"win_png\" x=\"3\" y=\"149\"/>\n\t<e:Button id=\"reBtn\" label=\"\" y=\"735\" horizontalCenter=\"0\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"retry_png\"/>\n\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n</e:Skin>"
+    }
+  ]
+}
